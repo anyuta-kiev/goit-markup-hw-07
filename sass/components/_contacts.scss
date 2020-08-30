@@ -1,0 +1,22 @@
+.contacts-list {
+  display: flex;
+}
+
+.contacts-link {
+  display: inline-flex;
+  align-items: center;
+  font-weight: 500;
+  line-height: 1.142;
+  letter-spacing: 0.02em;
+  color: $main-color;
+  text-decoration: none;
+
+  &:hover,
+  &:focus {
+  color: $accent-color;
+  }
+}
+
+.contacts-item:not(:last-child) {
+  margin-right: 50px;
+}

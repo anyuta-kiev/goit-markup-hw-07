@@ -1,0 +1,46 @@
+.footer-item {
+  display: block;
+  width: calc((100% - 90px) / 4);
+  margin-right: 30px;
+}
+
+.footer-item1 {
+  display: block;
+  width: calc(50% - 15px);
+} 
+
+.examples-title .footer {
+  display: block;
+  font-weight: 700;
+  line-height: 1.142;
+  text-transform: uppercase;
+  color: $white;
+  text-align: center;
+}
+
+.footer-addres {
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    font-style: normal;
+}
+
+.text-write {
+  margin-top: 20px;
+  margin-right: 10px;
+  width: 360px;
+  height: 50px;
+  padding: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  background-color: inherit;
+  border-radius: 4px;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.send {
+  margin-left: 10px;
+  width: 24px;
+  height: 24px;
+  fill: $white;
+}

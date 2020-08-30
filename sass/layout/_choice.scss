@@ -1,0 +1,12 @@
+.choice-list {
+  display: flex;
+  justify-content: center;
+
+  &.list {
+  margin-bottom: 50px;
+  }
+}
+
+.choice-item:not(:last-child) {
+  margin-right: 8px;
+}
