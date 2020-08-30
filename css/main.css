@@ -439,9 +439,6 @@ footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -661,6 +658,8 @@ footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .networks-icon {
@@ -687,7 +686,6 @@ footer {
 
 .networks-title {
   width: calc((100% - 10px * 3) / 4);
-  margin-right: 10px;
 }
 
 .networks-title:nth-child(4n) {
@@ -1216,11 +1214,13 @@ footer {
   display: block;
   width: calc((100% - 90px) / 4);
   margin-right: 30px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .footer-item1 {
   display: block;
-  width: calc(50% - 15px);
 }
 
 .examples-title .footer {

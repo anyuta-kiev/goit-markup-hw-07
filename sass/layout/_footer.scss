@@ -2,11 +2,12 @@
   display: block;
   width: calc((100% - 90px) / 4);
   margin-right: 30px;
+  justify-content: space-between;
 }
 
 .footer-item1 {
   display: block;
-  width: calc(50% - 15px);
+  // width: calc(50% - 15px);
 } 
 
 .examples-title .footer {

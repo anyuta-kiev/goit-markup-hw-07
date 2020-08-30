@@ -1,6 +1,7 @@
 .social-networks,
 .fsocial-networks {
   display: flex;
+  box-sizing: border-box;
 }
 
 .networks-icon {
@@ -22,7 +23,7 @@
 
 .networks-title {
   width: calc((100% - 10px * 3) / 4);
-  margin-right: 10px;
+  // margin-right: 10px;
 
   &:nth-child(4n) {
     margin-right: 0;
