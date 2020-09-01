@@ -16,10 +16,10 @@
 
 .menu-list {
   display: flex;
+}
 
-  &.current {
+.menu-list .current {
   color: $accent-color;
-  }
 }
 
 .menu-list .current::after {
