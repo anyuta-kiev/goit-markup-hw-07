@@ -344,8 +344,8 @@ template {
 @font-face {
   font-family: 'Raleway';
   font-style: normal;
-  font-weight: 400;
-  src: url("../fonts/raleway-v17-latin_cyrillic-regular.woff2") format("woff2"), url("../fonts/raleway-v17-latin_cyrillic-regular.woff") format("woff");
+  font-weight: 700;
+  src: url("../fonts/raleway-v17-latin-700.woff2") format("woff2"), url("../fonts/raleway-v17-latin-700.woff") format("woff");
 }
 
 @font-face {
@@ -575,7 +575,7 @@ footer {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.192;
+  line-height: 1.19;
   text-decoration: none;
   margin-right: 85px;
 }
